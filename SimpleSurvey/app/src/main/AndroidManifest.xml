@@ -11,7 +11,8 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".SimpleActivity"
-            android:label="Simple Activity">
+            android:label="Simple Activity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
